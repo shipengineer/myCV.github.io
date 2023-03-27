@@ -1,0 +1,14 @@
+.sky {
+  position: absolute;
+
+  height: 200%;
+  z-index: -999;
+}
+.buttons-div {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  bottom: 0;
+}
+.buttons {
+}

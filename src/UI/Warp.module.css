@@ -1,0 +1,19 @@
+@keyframes fade {
+  from {
+    opacity: 1;
+    visibility: visible;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.warp {
+  margin-top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 500;
+  animation: fade 3s ease forwards;
+}
