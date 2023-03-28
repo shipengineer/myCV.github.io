@@ -5,7 +5,7 @@ const BackButton = (props) => {
     <Link
       to='/index'
       className={styles['button-back']}
-      style={{ color: props.color, backgroundImage: props.decor }}
+      style={{ color: props.color, backgroundColor: props.decor }}
     >
       Back
     </Link>

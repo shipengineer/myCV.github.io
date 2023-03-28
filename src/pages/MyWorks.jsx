@@ -15,8 +15,8 @@ const MyWorks = () => {
       <div className={styles.background}>
         <div className={styles['buttons-div-wrapper']}>
           <div className={styles['buttons-div']}>
-            <BackButton color={'#B6F309'} decor={`url(${backDecor})`} />
-            <AboutMeButton color={'#B6F309'} decor={`url(${aboutMeDecor})`} />
+            <BackButton />
+            <AboutMeButton />
           </div>
         </div>
       </div>

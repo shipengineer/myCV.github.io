@@ -4,8 +4,14 @@
   background-image: url('../assets/img/my-work-dekor.png');
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: 0 1.3rem;
+  background-position: 0 2rem;
   text-decoration: none;
   color: black;
   font-family: 'Roboto Mono', monospace;
+  background-color: wheat;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 5px;
+  padding-left: 15px;
+  width: 100px;
 }

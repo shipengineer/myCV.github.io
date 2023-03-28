@@ -5,7 +5,7 @@ const AboutMeButton = (props) => {
     <Link
       to={'/about-me'}
       className={styles['about-me-button']}
-      style={{ color: props.color, backgroundImage: props.decor }}
+      style={{ color: props.color, backgroundColor: props.decor }}
     >
       About Me
     </Link>

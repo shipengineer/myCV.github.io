@@ -17,8 +17,8 @@ const Index = () => {
           <p>Mysnik</p>
         </div>
         <div className={styles['div-buttons']}>
-          <MyWorksButton />
-          <AboutMeButton />
+          <MyWorksButton decor={'unset'} />
+          <AboutMeButton decor={'unset'} />
         </div>
       </div>
     </Layout>
