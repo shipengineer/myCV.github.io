@@ -1,36 +1,18 @@
-.sky {
-  position: absolute;
-
-  height: 200%;
-  z-index: -999;
+.background {
+  min-width: 320px;
+  min-height: 1688px;
+  background-image: url('../assets/img/sky-new.png');
 }
 .buttons-div-wrapper {
   display: flex;
   position: fixed;
+
   bottom: 0;
   height: 50px;
-  width: 100%;
+  width: 390px;
 }
 .buttons-div {
   display: flex;
   width: 100%;
   justify-content: space-around;
-}
-.button-my-works {
-  background-image: url('../assets/img/my-work-dekor.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: 0 1.3rem;
-  text-decoration: none;
-  color: black;
-  font-family: 'Roboto Mono', monospace;
-}
-.button-back {
-  background-image: url('../assets/img/back-button-decor.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: 0 1.3rem;
-  text-decoration: none;
-  color: black;
-  font-family: 'Roboto Mono', monospace;
 }

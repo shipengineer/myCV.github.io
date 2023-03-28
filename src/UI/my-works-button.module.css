@@ -1,0 +1,11 @@
+.button-my-works {
+  height: 3rem;
+
+  background-image: url('../assets/img/my-work-dekor.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 1.3rem;
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+}

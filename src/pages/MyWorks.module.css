@@ -1,0 +1,17 @@
+.background {
+  min-width: 320px;
+  min-height: 1688px;
+  background-image: url('../assets/img/my-work-bg.png');
+}
+.buttons-div-wrapper {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: 390px;
+}
+.buttons-div {
+  display: flex;
+  width: 87%;
+  justify-content: space-around;
+}

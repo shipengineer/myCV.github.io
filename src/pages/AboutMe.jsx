@@ -1,27 +1,23 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import Warp from '../UI/Warp';
+import React, { useEffect } from 'react';
 import styles from './AboutMe.module.css';
-import sky from '../assets/img/sky-new.png';
+import BackButton from '../UI/BackButton';
+import Layout from '../UI/Layout';
+import subs from '../assets/img/about-me-substrate.png';
+import MyWorksButton from '../UI/MyWorksButton';
 const AboutMe = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
-    <React.Fragment>
-      <Warp />
-      <div>
-        <img src={sky} alt='background-sky' className={styles.sky} />
-      </div>
-
+    <Layout substrate={`url(${subs})`}>
+      <div className={styles.background}></div>
       <div className={styles['buttons-div-wrapper']}>
         <div className={styles['buttons-div']}>
-          <Link to='/index' className={styles['button-back']}>
-            Back
-          </Link>
-          <Link to='/my-works' className={styles['button-my-works']}>
-            My Works
-          </Link>
+          <BackButton />
+          <MyWorksButton />
         </div>
       </div>
-    </React.Fragment>
+    </Layout>
   );
 };
 

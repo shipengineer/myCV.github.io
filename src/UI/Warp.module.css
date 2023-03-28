@@ -2,10 +2,12 @@
   from {
     opacity: 1;
     visibility: visible;
+    overflow: hidden;
   }
   to {
     opacity: 0;
     visibility: hidden;
+    overflow: visible;
   }
 }
 

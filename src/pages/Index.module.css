@@ -1,34 +1,15 @@
 .background-image {
-  position: absolute;
-
-  height: 100%;
-  z-index: -999;
 }
 html {
   margin: 0;
   padding: 0px;
 }
-.button-my-works {
-  height: 3rem;
+.background {
+  min-width: 320px;
+  min-height: 844px;
+  background-image: url('../assets/img/index-backgorund-img.png');
+}
 
-  background-image: url('../assets/img/my-work-dekor.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: 0 1.3rem;
-  text-decoration: none;
-  color: black;
-  font-family: 'Roboto Mono', monospace;
-}
-.button-back {
-  height: 3rem;
-  background-image: url('../assets/img/back-button-decor.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center 1.3rem;
-  text-decoration: none;
-  color: black;
-  font-family: 'Roboto Mono', monospace;
-}
 .div-buttons {
   margin-top: 200px;
   display: flex;
