@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e1d5cf62.css",
+    "main.js": "/static/js/main.2a942aee.js",
+    "static/js/787.dbc30ae6.chunk.js": "/static/js/787.dbc30ae6.chunk.js",
+    "static/media/warp.gif": "/static/media/warp.dfe7daff36915c013be5.gif",
+    "static/media/sky-new.png": "/static/media/sky-new.db07014b4855adb8f1cd.png",
+    "static/media/my-work-bg.png": "/static/media/my-work-bg.ae5cb0ac18396454a8b1.png",
+    "static/media/index-backgorund-img.png": "/static/media/index-backgorund-img.8f0932158ca98204764b.png",
+    "static/media/about-me-substrate.png": "/static/media/about-me-substrate.ecd7d20b48cbfc8a3490.png",
+    "static/media/my-work-substrate.png": "/static/media/my-work-substrate.fa4f407df8e0ca07197e.png",
+    "static/media/index-substrate.png": "/static/media/index-substrate.69ef4d4621c342e1ca41.png",
+    "static/media/muses-photo.jpg": "/static/media/muses-photo.2e2c4eee0e31a9d7b8f6.jpg",
+    "static/media/bio-photo.jpg": "/static/media/bio-photo.47522a3a88a5a56185a3.jpg",
+    "index.html": "/index.html",
+    "static/media/green-back.svg": "/static/media/green-back.0df69ed69826953af0e8667b432525ac.svg",
+    "main.e1d5cf62.css.map": "/static/css/main.e1d5cf62.css.map",
+    "main.2a942aee.js.map": "/static/js/main.2a942aee.js.map",
+    "787.dbc30ae6.chunk.js.map": "/static/js/787.dbc30ae6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1d5cf62.css",
+    "static/js/main.2a942aee.js"
+  ]
+}
